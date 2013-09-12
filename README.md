@@ -23,5 +23,10 @@ I strongly recomment you to choose all optional items, which will made the toy m
 2. The Arduino itself cann't provide enough random numbers in the sense of each time it boot. So we use a LM35 temperature sensor to provider a environment related random seed value. We found this is enough to made the initial status different.
 3. If the game reach a stable status or loop, just press button for half second, it will re-init again.
 
+# Acknowledgement
+* I got this idea from the NoiseBridge.
+* Thanks Yi Ding from Wifi.io for recommending the LED matrix panel.
+* Special thanks Zhenyu Zhang from Beijing Makespace for providing the power connector and Dupont lines.
+
 # Author
 Claud Xiao <secmobi@gmail.com>
